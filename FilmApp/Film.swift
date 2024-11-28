@@ -1,8 +1,9 @@
-//
-//  Film.swift
-//  FilmApp
-//
-//  Created by Anuththara Divarathna on 2024-11-28.
-//
-
 import Foundation
+
+struct Film: Identifiable {
+    var id: Int
+    var name: String
+    var director: String
+    var author: String
+    var releaseDate: String
+}
